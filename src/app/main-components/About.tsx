@@ -40,11 +40,7 @@ export default function About() {
                   </Tooltip>
                   <Tooltip>
                     <TooltipTrigger>
-                      <a
-                        href="./NithishMR.pdf"
-                        target="_blank"
-                        download="NithishMR.pdf"
-                      >
+                      <a href="./NithishMR.pdf" target="_blank">
                         <div className="flex flex-col items-center justify-center">
                           <Download />
                           <span className="font-bold">Resume</span>
@@ -81,9 +77,9 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div>
+          {/* <div>
             <img src="./MyImage.jpg" alt="My picture" fetchPriority="high" />
-          </div>
+          </div> */}
         </div>
       </div>
     </>

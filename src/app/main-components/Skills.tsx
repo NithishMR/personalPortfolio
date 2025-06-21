@@ -13,6 +13,7 @@ const skills: Skill[] = [
   { title: "Node.js", image: "./nodejs.svg" },
   { title: "Express", image: "./express.svg" },
   { title: "PostgreSQL", image: "./postgresql.svg" },
+  { title: "MongoDB", image: "./mongodb.png" },
 ];
 
 export default function Skills() {

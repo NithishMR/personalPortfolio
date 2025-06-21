@@ -33,11 +33,6 @@ const items = [
     url: "/projects",
     icon: Code,
   },
-  {
-    title: "Blog",
-    url: "/blog",
-    icon: File,
-  },
 ];
 
 export function AppSidebar() {
